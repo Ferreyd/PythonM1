@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="IdProvider" IDEtalkID="0B1286327DB9D500B179B91427F67DC1" />
   <component name="JavaDocConfiguration_1.0.5">
     <GENERAL>
@@ -189,26 +192,10 @@
     </TEMPLATES>
   </component>
   <component name="ProjectKey">
-    <option name="state" value="project://528e3a3c-93ff-44a8-93a6-8d4501b6fe6a" />
+    <option name="state" value="https://github.com/Ferreyd/PythonM1.git" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="Python 2.7.6 virtualenv at C:\Users\Nicolas\AppData\Local\Enthought\Canopy" project-jdk-type="Python SDK">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>Python 3.3.4 (C:/Python33/python.exe)</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
 

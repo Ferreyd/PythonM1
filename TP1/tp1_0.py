@@ -23,7 +23,7 @@ def plot(inx, iny, title, format='-bo'):
     plt.grid(True)
 
 if __name__ == '__main__':
-    x,y = make_sin(2,f=50.0,ffe = 1000.0, nT=2)
+    x,y = make_sin(2, f=50.0, fe=1000.0, nT=2)
     plot(x,y,"test")
 
     plt.show()
