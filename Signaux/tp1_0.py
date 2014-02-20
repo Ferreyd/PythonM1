@@ -20,7 +20,7 @@ def plot(inx, iny, title, format='-bo'):
     plt.xlabel('time (s)')
     plt.ylabel('voltage (V)')
     plt.title(title)
-    plt.ylim([-1.2,+1.2])
+   # plt.ylim([-1.2,+1.2])
     plt.grid(True)
 
 if __name__ == '__main__':
