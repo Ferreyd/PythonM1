@@ -8,13 +8,13 @@ def make_dentDeScie(a=1.0, ph=0, f=440.0, fe=8000.0, nT=1):
     omega = 2*math.pi*f
     N = int(fe/f)
     te = 1.0/fe
-    periode = 1/f
+    T = 1/f
     cos_t = []
     cos_s = []
     for i in range(N*nT):
         t = te*i
         cos_t.append(t)
-        res = 2*((t/periode) - math.floor((t/periode) - (1/2)))
+        res = 2*((t/T) - math.floor((t/T) - (1/2)))
         cos_s.append(res)
     return cos_t, cos_s
 

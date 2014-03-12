@@ -14,16 +14,16 @@ class SignalCarre(Signal):
         self = self
 
 
-def make_carre(self):
-    omega = 2*math.pi*self.f
-    N = int(self.fe/self.f)
-    te = 1.0/self.fe
+def make_carre(a=1.0, ph=0, f=440.0, fe=8000.0, nT=1):
+    omega = 2*math.pi*f
+    N = int(fe/f)
+    te = 1.0/fe
     cos_t = []
     cos_s = []
-    for i in range(N*self.nT):
+    for i in range(N*nT):
         t = te*i
         cos_t.append(t)
-        cos_s.append(self.a*signe(math.sin((omega*t)+self.ph)))
+        cos_s.append(a*signe(math.sin((omega*t)+ph)))
     return cos_t, cos_s
 
 def signe(nb):

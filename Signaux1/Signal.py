@@ -16,3 +16,4 @@ class Signal:
         plt.title(title)
         # plt.ylim([-1.2,+1.2])
         plt.grid(True)
+        x,y = SignalCarre.make_carre(self)
