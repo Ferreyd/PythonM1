@@ -1,38 +1,46 @@
-from Signaux1 import Signal
 import math
 import matplotlib.pyplot as plt
 import numpy as np
-__author__ = 'Nicolas'
+from Signal import Signal
+
 class SignalCarre(Signal):
 
+    """
+        On prend les donnees necessaire a la construction de la courbe
+    """
     def __init__(self, a, ph, f, fe, nT):
         self.a = a
         self.ph = ph
-        self.f = f
         self.fe = fe
         self.nT = nT
-        self = self
+        self.f = f
 
+    """
+        Affiche la courbe
+    """
+    def show(self, titre="Signal Carre", format='-bo'):
+        x,y = self.make()
+        self.plot(x,y,titre)
 
-def make_carre(a=1.0, ph=0, f=440.0, fe=8000.0, nT=1):
-    omega = 2*math.pi*f
-    N = int(fe/f)
-    te = 1.0/fe
-    cos_t = []
-    cos_s = []
-    for i in range(N*nT):
-        t = te*i
-        cos_t.append(t)
-        cos_s.append(a*signe(math.sin((omega*t)+ph)))
-    return cos_t, cos_s
+    """
+        La fonction d un signal carre
+    """
+    def fonction(self, t):
+        res = []
+        res.append(self.a*self.signe(math.sin((self.omega*t)+self.ph)))
+        return res
 
-def signe(nb):
-    print(nb)
-    if(nb > 0):
-        return 1
-    elif(nb == 0):
-        return 0
-    elif(nb < 0):
-        return -1
+    """
+        Retourne le signe d'un nombre passe en parametre,
+        1 si positif, -1 si negatif, 0 sinon
+    """
+    def signe(self,nb):
+        print(nb)
+        if(nb > 0):
+            return 1
+        elif(nb == 0):
+            return 0
+        elif(nb < 0):
+            return -1
 
 

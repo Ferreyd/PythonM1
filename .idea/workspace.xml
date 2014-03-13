@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5320c908-cdff-40b7-b4a3-7ad9c71d58b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/Signal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/SignalCarre.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/tp1_2_2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/tp1_2_3.py" />
-      <change type="DELETED" beforePath="C:\Users\Nicolas\Documents\Master1\PythonM1\Signaux\__init__.py" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Nicolas\Documents\Master1\PythonM1\Signaux\tp1_0.py" afterPath="$PROJECT_DIR$/Signaux1/tp1_0.py" />
-      <change type="MOVED" beforePath="C:\Users\Nicolas\Documents\Master1\PythonM1\Signaux\tp1_1.py" afterPath="$PROJECT_DIR$/Signaux1/tp1_1.py" />
-      <change type="MOVED" beforePath="C:\Users\Nicolas\Documents\Master1\PythonM1\Signaux\tp1_2.py" afterPath="$PROJECT_DIR$/Signaux1/tp1_2_1.py" />
+    <list default="true" id="5320c908-cdff-40b7-b4a3-7ad9c71d58b8" name="Default" comment="Tp1_2_2&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/SignalCos.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/SignalDentDeScie.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/SignalSinus.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/SignalTriangle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Signaux1/tp1_4.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Signaux1/Signal.py" afterPath="$PROJECT_DIR$/Signaux1/Signal.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Signaux1/SignalCarre.py" afterPath="$PROJECT_DIR$/Signaux1/SignalCarre.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Signaux1/__init__.py" afterPath="$PROJECT_DIR$/Signaux1/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PythonM1.iws" />
@@ -25,8 +24,13 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PythonM1$tp1_1.coverage" NAME="tp1_1 Coverage Results" MODIFIED="1394724257584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Signaux" />
+    <SUITE FILE_PATH="coverage/PythonM1$tp1_4.coverage" NAME="tp1_4 Coverage Results" MODIFIED="1394723613269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Signaux1" />
+    <SUITE FILE_PATH="coverage/PythonM1$Signal.coverage" NAME="Signal Coverage Results" MODIFIED="1394631079605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Signaux1" />
     <SUITE FILE_PATH="coverage/PythonM1$tp1_2.coverage" NAME="tp1_2 Coverage Results" MODIFIED="1394371647032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Signaux" />
-    <SUITE FILE_PATH="coverage/PythonM1$tp1_2_2.coverage" NAME="tp1_2_3 Coverage Results" MODIFIED="1394373143332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Signaux1" />
+    <SUITE FILE_PATH="coverage/PythonM1$Classes.coverage" NAME="Classes Coverage Results" MODIFIED="1394732842221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Signaux1" />
+    <SUITE FILE_PATH="coverage/PythonM1$tp1_2_2.coverage" NAME="tp1_2_2 Coverage Results" MODIFIED="1394628490369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Signaux1" />
+    <SUITE FILE_PATH="coverage/PythonM1$tp1_2_3.coverage" NAME="tp1_2_3 Coverage Results" MODIFIED="1394628536028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Signaux1" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -75,51 +79,44 @@
     <breakpoint_rules />
     <ui_properties />
   </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="SignalTriangle.py" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Signaux1/SignalTriangle.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="17" column="85" selection-start="353" selection-end="421" vertical-scroll-proportion="0.31209505" vertical-offset="0" max-vertical-offset="926">
+                    <folding>
+                      <element signature="e#0#11#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="SignalSinus.py" pinned="false" current="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/Signaux1/SignalSinus.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="22" column="7" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+                    <folding>
+                      <element signature="e#0#11#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="PythonM1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="tp1_2_1.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="191" selection-end="191" vertical-scroll-proportion="0.029565217" vertical-offset="85" max-vertical-offset="748">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tp1_2_3.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="25" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="680">
-              <folding>
-                <element signature="e#24#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Signal.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Signaux1/Signal.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignalCarre.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Signaux1/SignalCarre.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="74" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -151,13 +148,19 @@
         <option value="$PROJECT_DIR$/Signaux/Plot.py" />
         <option value="$PROJECT_DIR$/Signaux/Signal.py" />
         <option value="$PROJECT_DIR$/Signaux/SignalCarre.py" />
-        <option value="$PROJECT_DIR$/Signaux1/__init__.py" />
         <option value="$PROJECT_DIR$/Signaux1/tp1_2.py" />
         <option value="$PROJECT_DIR$/Signaux1/tp1_3.py" />
         <option value="$PROJECT_DIR$/Signaux1/tp1_2_2.py" />
+        <option value="$PROJECT_DIR$/Signaux1/tp1_4.py" />
         <option value="$PROJECT_DIR$/Signaux1/tp1_2_3.py" />
+        <option value="$PROJECT_DIR$/Signaux1/SignalCos.py" />
+        <option value="$PROJECT_DIR$/Signaux1/__init__.py" />
         <option value="$PROJECT_DIR$/Signaux1/SignalCarre.py" />
+        <option value="$PROJECT_DIR$/Signaux1/SignalSinus.py" />
+        <option value="$PROJECT_DIR$/Signaux1/main.py" />
         <option value="$PROJECT_DIR$/Signaux1/Signal.py" />
+        <option value="$PROJECT_DIR$/Signaux1/SignalTriangle.py" />
+        <option value="$PROJECT_DIR$/Signaux1/SignalDentDeScie.py" />
       </list>
     </option>
   </component>
@@ -240,7 +243,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Signaux1/tp1_2_2.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Signaux1/Signal.py" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -267,7 +270,7 @@
       <recent name="C:\Users\Nicolas\Documents\Master1\PythonM1\TP1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tp1_2_3">
+  <component name="RunManager" selected="Python.Classes">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -721,12 +724,52 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="5">
+    <configuration default="false" name="tp1_4" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/AppData/Local/Enthought/Canopy/User/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Signaux1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Signaux1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Signaux1/tp1_4.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Classes" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/AppData/Local/Enthought/Canopy/User/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Signaux1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Signaux1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Signaux1/main.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.tp1_0" />
       <item index="1" class="java.lang.String" itemvalue="Python.tp1_1" />
       <item index="2" class="java.lang.String" itemvalue="Python.tp1_2_1" />
       <item index="3" class="java.lang.String" itemvalue="Python.tp1_2_3" />
       <item index="4" class="java.lang.String" itemvalue="Python.tp1_2_2" />
+      <item index="5" class="java.lang.String" itemvalue="Python.tp1_4" />
+      <item index="6" class="java.lang.String" itemvalue="Python.Classes" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -749,6 +792,7 @@
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
     <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\cordi_000\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -769,7 +813,14 @@
       <workItem from="1393877422688" duration="149000" />
       <workItem from="1393877584814" duration="1350000" />
       <workItem from="1393878953979" duration="41000" />
-      <workItem from="1394370329315" duration="3153000" />
+      <workItem from="1394370329315" duration="3484000" />
+      <workItem from="1394397045082" duration="30000" />
+      <workItem from="1394628421665" duration="228000" />
+      <workItem from="1394629854786" duration="2106000" />
+      <workItem from="1394709629688" duration="1140000" />
+      <workItem from="1394710797338" duration="318000" />
+      <workItem from="1394714679186" duration="20000" />
+      <workItem from="1394723352589" duration="9519000" />
     </task>
     <task id="LOCAL-00001" summary="je test&#10;">
       <created>1392283699783</created>
@@ -787,64 +838,72 @@
       <created>1392917163630</created>
       <updated>1392917163630</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tp1_2_2">
+      <created>1394373500171</created>
+      <updated>1394373500171</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Equation terminées&#10;">
+      <created>1394628562957</created>
+      <updated>1394628562957</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21488000" />
+    <option name="totallyTimeSpent" value="35180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33442983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2682927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3347732" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31374723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34100878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22283813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33406594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2682927" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3347732" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30155212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33516484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31374723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33442983" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -871,7 +930,9 @@
     <MESSAGE value="tp1_0 marche" />
     <MESSAGE value="Quand on indente bien on python ca marche ..." />
     <MESSAGE value="TP1_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="TP1_2" />
+    <MESSAGE value="Tp1_2_2" />
+    <MESSAGE value="Equation terminées&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Equation terminées&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -881,36 +942,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_1.py">
+    <entry file="file://$PROJECT_DIR$/Signaux1/Signal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="816">
+        <state line="18" column="41" selection-start="438" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="408">
           <folding>
-            <element signature="e#24#35#0" expanded="false" />
+            <element signature="e#23#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/SignalCarre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="23" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="748" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
+        <state line="17" column="44" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="816">
-          <folding>
-            <element signature="e#24#35#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="15" column="22" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="44" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Signaux1/tp1_0.py">
@@ -1064,47 +1127,58 @@
         <state line="1" column="89" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_0.py">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$USER_HOME$/AppData/Local/Enthought/Canopy/User/Lib/site-packages/matplotlib/axes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="189" selection-end="189" vertical-scroll-proportion="0.16" vertical-offset="0" max-vertical-offset="850" />
+        <state line="236" column="0" selection-start="7916" selection-end="7916" vertical-scroll-proportion="-0.16962306" vertical-offset="4012" max-vertical-offset="159885" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Signaux1/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="125" selection-end="125" vertical-scroll-proportion="0.09714286" vertical-offset="0" max-vertical-offset="875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state line="36" column="35" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <folding>
-            <element signature="e#24#35#0" expanded="false" />
+            <element signature="e#23#34#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="25" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="680">
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Signaux1/Signal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+        <state line="18" column="0" selection-start="406" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Signaux1/SignalCarre.py">
+    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="74" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="122" max-vertical-offset="697">
+        <state line="13" column="25" selection-start="299" selection-end="299" vertical-scroll-proportion="0.31270903" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/Nicolas/Documents/Master1/PythonM1/Signaux1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/Nicolas/Documents/Master1/PythonM1/Signaux1</OriginalElement>
+          <nodes>
+            <node x="" y="">SignalDentDeScie.SignalTriangle</node>
+            <node x="" y="">Signal.Signal</node>
+            <node x="" y="">SignalCos.SignalTriangle</node>
+            <node x="" y="">SignalTriangle.SignalTriangle</node>
+            <node x="" y="">SignalSinus.SignalTriangle</node>
+            <node x="" y="">SignalCarre.SignalCarre</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="167.0" y="146.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="59" selection-start="680" selection-end="713" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
@@ -1114,15 +1188,86 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="52" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="26" column="32" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_2_1.py">
+    <entry file="file://$PROJECT_DIR$/Signaux1/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="191" selection-end="191" vertical-scroll-proportion="0.029565217" vertical-offset="85" max-vertical-offset="748">
+        <state line="5" column="38" selection-start="124" selection-end="124" vertical-scroll-proportion="0.11371238" vertical-offset="0" max-vertical-offset="598">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/tp1_0.py">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="47" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/SignalSinus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/SignalTriangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="85" selection-start="353" selection-end="421" vertical-scroll-proportion="0.31209505" vertical-offset="0" max-vertical-offset="926">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/Signal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="66" selection-start="233" selection-end="233" vertical-scroll-proportion="0.20517242" vertical-offset="51" max-vertical-offset="952">
+          <folding>
+            <element signature="e#23#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/SignalCos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="390" selection-end="390" vertical-scroll-proportion="0.5862069" vertical-offset="0" max-vertical-offset="580">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="421" selection-end="421" vertical-scroll-proportion="0.49827588" vertical-offset="0" max-vertical-offset="580">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/SignalCarre.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="29" selection-start="960" selection-end="960" vertical-scroll-proportion="1.1465517" vertical-offset="49" max-vertical-offset="884">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Signaux1/SignalDentDeScie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="35" selection-start="273" selection-end="273" vertical-scroll-proportion="0.3810345" vertical-offset="0" max-vertical-offset="580">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
